@@ -7,7 +7,10 @@ export default class Grid extends Component {
   render() {
     return (
       <div className="Grid">
-        <GridItem />
+        Grid
+        {window.items.map((item,i) =>
+        <GridItem index={i} object={item} />
+        )}
         </div>
     )
   }
