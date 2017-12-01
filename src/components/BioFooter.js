@@ -6,7 +6,7 @@ export default class BioFooter extends Component {
   render() {
     return (
       <div className="BioFooter"> 
-      <p>Footer</p>
+      <p>oscarjohansson.nu</p>
       </div>
     )
   }
