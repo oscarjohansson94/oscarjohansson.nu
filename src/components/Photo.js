@@ -6,7 +6,7 @@ export default class Photo extends Component {
   render() {
     return (
       <div className="Photo"> 
-      <img src={process.env.PUBLIC_URL  + 'images/profile.png'} />
+      <img src={process.env.PUBLIC_URL  + 'images/profileN.png'} />
       </div>
     )
   }

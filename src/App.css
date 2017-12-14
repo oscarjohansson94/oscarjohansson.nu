@@ -13,11 +13,14 @@ body {
 
 .GridItem {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 500ms ease-in-out;
   height: 40%;
   width: 80%;
+  min-width: 250px;
+  min-height: 200px;
   margin: 0 auto;
+  cursor: pointer;
 }
-
 
 .GridItemHeader {
   background: white;
@@ -38,13 +41,23 @@ body {
   margin: 0;
 }
 
+.GridItemInfo {
+  width: 100%;
+  display:inline-block;
+  height: 81%;
+  color: #333;
+  background-color: white; 
+  overflow: hidden;
+}
+
 img {
   height: 100%;
   width: 100%;
 }
 
 .Header {
-  color: 'f2f2f2';
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.75);
+  color: white;
   font-size: 68px;
   width: 100%;
   text-align: 'center';
@@ -81,13 +94,22 @@ img {
     text-align: center;
   }
 
+  .GridItemInfo {
+    width: 100%;
+    display:inline-block;
+    height: 81%;
+    color: #333;
+    background-color: white; 
+    overflow: hidden;
+  }
+
+
 
   .GridItem {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 40%;
-    width: 40%;
     margin: 0 auto;
     position: absolute;
+    transition: transform 500ms ease-in-out;
   }
 
 
@@ -118,9 +140,10 @@ img {
   }
 
   .Header {
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.75);
     position: absolute;
     left: 25%;
-    color: 'f2f2f2';
+    color: white;
     font-size: 68px;
     width: 64%;
     height
@@ -131,8 +154,7 @@ img {
     background: #272727;
     color: white;
     position: absolute;
-    min-width:150px;
-    min-height:500px;
+    min-width:180px;
     width: 20% !important;
     height: 100% !important;
     left: 10px;
@@ -159,4 +181,3 @@ img {
     top: 15%;
   }
 }
-
